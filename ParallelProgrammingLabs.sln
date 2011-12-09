@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumNumbersCascade", "SumNumbersCascade\SumNumbersCascade.vcxproj", "{6E9154B5-DAF7-41A7-A3D6-D41B236B5773}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PiComputation", "PiComputation\PiComputation.vcxproj", "{696F33E9-662F-439B-B804-2C023D3BF61C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixVectorProduct", "MatrixVectorProduct\MatrixVectorProduct.vcxproj", "{51500D8F-CFF2-498C-B6C4-CCFFA7D879F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMatrixProduct", "MatrixMatrixProduct\MatrixMatrixProduct.vcxproj", "{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5314FADC-0B31-40C8-9038-AFEAB8E3012F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9154B5-DAF7-41A7-A3D6-D41B236B5773}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E9154B5-DAF7-41A7-A3D6-D41B236B5773}.Debug|Win32.Build.0 = Debug|Win32
+		{6E9154B5-DAF7-41A7-A3D6-D41B236B5773}.Release|Win32.ActiveCfg = Release|Win32
+		{6E9154B5-DAF7-41A7-A3D6-D41B236B5773}.Release|Win32.Build.0 = Release|Win32
+		{696F33E9-662F-439B-B804-2C023D3BF61C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{696F33E9-662F-439B-B804-2C023D3BF61C}.Debug|Win32.Build.0 = Debug|Win32
+		{696F33E9-662F-439B-B804-2C023D3BF61C}.Release|Win32.ActiveCfg = Release|Win32
+		{696F33E9-662F-439B-B804-2C023D3BF61C}.Release|Win32.Build.0 = Release|Win32
+		{51500D8F-CFF2-498C-B6C4-CCFFA7D879F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51500D8F-CFF2-498C-B6C4-CCFFA7D879F3}.Debug|Win32.Build.0 = Debug|Win32
+		{51500D8F-CFF2-498C-B6C4-CCFFA7D879F3}.Release|Win32.ActiveCfg = Release|Win32
+		{51500D8F-CFF2-498C-B6C4-CCFFA7D879F3}.Release|Win32.Build.0 = Release|Win32
+		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Debug|Win32.Build.0 = Debug|Win32
+		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Release|Win32.ActiveCfg = Release|Win32
+		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
