@@ -1,4 +1,4 @@
-﻿#Parallel Programming Labs — MPI and OpenMP Examples#
+﻿#Parallel Programming Labs: MPI and OpenMP Examples#
 This labs will help you to understand C++ parallel programming with [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) and [OpenMP](https://en.wikipedia.org/wiki/OpenMP).
 Visual Studio 2010 solution, [Microsoft MPI](https://en.wikipedia.org/wiki/Microsoft_Messaging_Passing_Interface), Intel Compiler with /Qopenmp.
 [Compiled binaries and libraries](https://github.com/downloads/kcherenkov/Parallel-Programming-Labs/ParallelProgrammingLabs.zip)
@@ -35,6 +35,7 @@ The main idea behind implementation of said phenomena can be understood by the f
 1. Each process contains a copy of the complete vector and one or more rows of the matrix.
 2. Each process multiplies it’s row elements with the vector and saves it’s portion of solution vector.
 3. Root process gathers and combines the portion of solution vector from every process and presents it as the output.
+
 ##MatrixMatrixProduct##
 This example is a simple matrix multiplication program. AxB=C.
 
