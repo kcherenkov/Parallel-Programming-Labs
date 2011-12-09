@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{E2B63E71-DDC0-4376-A3BD-50C2D8D75B23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumNumbers", "SumNumbers\SumNumbers.vcxproj", "{BA87727C-A1D0-4EF1-8EC6-B7715423B6E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -36,6 +40,14 @@ Global
 		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Debug|Win32.Build.0 = Debug|Win32
 		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Release|Win32.ActiveCfg = Release|Win32
 		{DA2F88C3-2ADF-4855-8FC6-49EEBE900088}.Release|Win32.Build.0 = Release|Win32
+		{E2B63E71-DDC0-4376-A3BD-50C2D8D75B23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2B63E71-DDC0-4376-A3BD-50C2D8D75B23}.Debug|Win32.Build.0 = Debug|Win32
+		{E2B63E71-DDC0-4376-A3BD-50C2D8D75B23}.Release|Win32.ActiveCfg = Release|Win32
+		{E2B63E71-DDC0-4376-A3BD-50C2D8D75B23}.Release|Win32.Build.0 = Release|Win32
+		{BA87727C-A1D0-4EF1-8EC6-B7715423B6E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA87727C-A1D0-4EF1-8EC6-B7715423B6E7}.Debug|Win32.Build.0 = Debug|Win32
+		{BA87727C-A1D0-4EF1-8EC6-B7715423B6E7}.Release|Win32.ActiveCfg = Release|Win32
+		{BA87727C-A1D0-4EF1-8EC6-B7715423B6E7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
