@@ -1,4 +1,4 @@
-﻿#Parallel Programming Labs — MPI and OpenMP Examples#
+﻿#Parallel Programming Labs: MPI and OpenMP Examples#
 This labs will help you to understand C++ parallel programming with [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) and [OpenMP](https://en.wikipedia.org/wiki/OpenMP).
 
 Visual Studio 2010 solution, [Microsoft MPI](https://en.wikipedia.org/wiki/Microsoft_Messaging_Passing_Interface), Intel Compiler with /Qopenmp.
