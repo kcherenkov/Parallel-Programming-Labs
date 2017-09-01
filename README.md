@@ -1,14 +1,18 @@
-#Parallel Programming Labs: MPI and OpenMP Examples#
-This labs will help you to understand C++ parallel programming with [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) and [OpenMP](https://en.wikipedia.org/wiki/OpenMP).
+Parallel Programming Labs: MPI and OpenMP Examples
+===================================================
+
+These labs will help you to understand C++ parallel programming with [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) and [OpenMP](https://en.wikipedia.org/wiki/OpenMP).
 
 Visual Studio 2010 solution, [Microsoft MPI](https://en.wikipedia.org/wiki/Microsoft_Messaging_Passing_Interface), Intel Compiler with /Qopenmp.
 
 [Compiled binaries and libraries](https://github.com/downloads/kcherenkov/Parallel-Programming-Labs/ParallelProgrammingLabs.zip)
 
-##HelloWorld##
+HelloWorld
+==========
 See Hello message from every thread and every process.
 
-##SumNumbers##
+SumNumbers
+==========
 This program sums all rows in an array using parallelism.
 The root process acts as a master and sends a portion of the
 array to each child process.  Master and child processes then
@@ -16,10 +20,12 @@ all calculate a partial sum of the portion of the array assigned
 to them, and the child processes send their partial sums to
 the master, who calculates a grand total.
 
-##SumNumbersCascade##
+SumNumbersCascade
+=================
 Sums all rows in an array. Cascade algorithm.
 
-##PiComputation##
+PiComputation
+=============
 This exercise presents a simple program to determine the value of pi.
 The algorithm suggested here is chosen for its simplicity.
 The method evaluates the integral of 4/(1+x*x) between 0 and 1.
@@ -30,7 +36,8 @@ the master should then broadcast this number to all of the other processes.
 Each process then adds up every n'th interval (x = rank/n, rank/n+size/n,...).
 Finally, the sums computed by each process are added together using a reduction.
 
-##MatrixVectorProduct##
+MatrixVectorProduct
+===================
 MPI code for Matrix Vector Multiplication with Row wise block striped decomposition.
 The main idea behind implementation of said phenomena can be understood by the following steps:
 
@@ -38,7 +45,8 @@ The main idea behind implementation of said phenomena can be understood by the f
 2. Each process multiplies it’s row elements with the vector and saves it’s portion of solution vector.
 3. Root process gathers and combines the portion of solution vector from every process and presents it as the output.
 
-##MatrixMatrixProduct##
+MatrixMatrixProduct
+===================
 This example is a simple matrix multiplication program. AxB=C.
 
 1. Matrix A is divided into blocks and distributed among processors.
